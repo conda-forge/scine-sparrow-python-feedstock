@@ -1,11 +1,11 @@
-About scine-sparrow-python
-==========================
+About scine-sparrow-python-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scine-sparrow-python-feedstock/blob/main/LICENSE.txt)
 
 Home: https://scine.ethz.ch/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scine-sparrow-python-feedstock/blob/main/LICENSE.txt)
 
 Summary: Sparrow is a code for fast semiempirical quantum chemical calculations (Python bindings)
 
