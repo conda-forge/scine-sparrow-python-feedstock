@@ -1,5 +1,5 @@
 {% set name = "scine-sparrow-python" %}
-{% set version = "3.1.0" %}
+{% set version = "5.1.0" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/qcscine/sparrow/archive/refs/tags/{{ version }}.tar.gz
-    sha256: 91412de0f2670a1735c4ca76406db5bea04236eeac0bc1f93ccfe18104aa7ce4
+    sha256: 922d5c2241c994c507cca73da2be4d67cf7257528f14eaa6fcb69e8ab0f175b7
 
 build:
   number: 0
