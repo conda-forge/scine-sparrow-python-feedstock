@@ -10,16 +10,16 @@ source:
     sha256: 91412de0f2670a1735c4ca76406db5bea04236eeac0bc1f93ccfe18104aa7ce4
 
 build:
-  number: 0
+  number: 1
   noarch: python
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
     - scine-sparrow {{ version }}
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - scine-sparrow {{ version }}
     - scine-utilities-python
 
@@ -31,6 +31,7 @@ test:
   requires:
     - pip
     - pytest
+    - python {{ python_min }}
   commands:
     - pip check
     - pytest src/Sparrow/Python/Tests/*.py
